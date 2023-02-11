@@ -1,4 +1,4 @@
-# Staff-Member-office-hours-management-website using jsp and mysql database ...
+# Staff-Member-office-hours-management-website 
 
 
 General Requirements:
@@ -45,3 +45,13 @@ For Staff Members:
 9. Get notifications of messages and students’ reservation by email (real email message – can use java mail or any other email libraries) and on the system.
 10. Get notification of a reservation cancellation same as requirement No.8
 11. Get notification on the day of the meeting same as requirement No.8
+
+![image](https://user-images.githubusercontent.com/36468401/218285242-16f3f725-8697-423f-9daa-410be068506a.png)
+
+![image](https://user-images.githubusercontent.com/36468401/218285281-dfcf9a6e-58b0-4351-9f80-2f8493d5a3a8.png)
+
+![image](https://user-images.githubusercontent.com/36468401/218285318-513787a7-8393-417d-9ef8-e9bd587b250f.png)
+
+![image](https://user-images.githubusercontent.com/36468401/218285301-48b8a61f-06bc-4e1d-8540-84717ec1acae.png)
+
+
