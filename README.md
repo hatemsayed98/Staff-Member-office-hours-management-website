@@ -1,7 +1,24 @@
 # Staff-Member-office-hours-management-website 
 
+Description
 
-General Requirements:
+Website for scheduling staff ’s office hours, topics and registering meetings by students. Both staff and students are allowed to use messages, chat, have editable profi les and sign in/out.
+
+## Used technologies
+
+* This project uses JSP 'Java Server Pages' for all the logic in front and using java servlets for back-end and for accessing databases.
+* Front-end is developed using HTML, CSS, JavaScript, Bootstrap, jQuery and Ajax.
+* Using the MySQL DBMS for storing our databases.
+
+## Sample pages
+
+![image](https://user-images.githubusercontent.com/36468401/218285242-16f3f725-8697-423f-9daa-410be068506a.png)
+
+![image](https://user-images.githubusercontent.com/36468401/218285281-dfcf9a6e-58b0-4351-9f80-2f8493d5a3a8.png)
+
+![image](https://user-images.githubusercontent.com/36468401/218285318-513787a7-8393-417d-9ef8-e9bd587b250f.png)
+
+## General Requirements:
 1. Every project must include mechanisms for signing up, signing in, and signing out.
 2. Signing up process should include the following
 a. The form must use a captcha whether online or offline like “google captcha” …etc.
