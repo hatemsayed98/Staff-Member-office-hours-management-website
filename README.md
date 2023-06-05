@@ -1,45 +1,18 @@
 # Staff-Member-office-hours-management-website 
 
-Description
+Website Students and Staff, TAs or Doctors, for scheduling meetings during office hours registered by the students.
 
-Website for scheduling staff ’s office hours, topics and registering meetings by students. Both staff and students are allowed to use messages, chat, have editable profi les and sign in/out.
-
-## Used technologies
-
-* This project uses JSP 'Java Server Pages' for all the logic in front and using java servlets for back-end and for accessing databases.
-* Front-end is developed using HTML, CSS, JavaScript, Bootstrap, jQuery and Ajax.
-* Using the MySQL DBMS for storing our databases.
-
-## Sample pages
-
-![image](https://user-images.githubusercontent.com/36468401/218285242-16f3f725-8697-423f-9daa-410be068506a.png)
-
-![image](https://user-images.githubusercontent.com/36468401/218285281-dfcf9a6e-58b0-4351-9f80-2f8493d5a3a8.png)
-
-![image](https://user-images.githubusercontent.com/36468401/218285318-513787a7-8393-417d-9ef8-e9bd587b250f.png)
-
-## General Requirements:
-1. Every project must include mechanisms for signing up, signing in, and signing out.
-2. Signing up process should include the following
-a. The form must use a captcha whether online or offline like “google captcha” …etc.
-b. During the registration the user will not supply a password
-c. After the form submission an email (real email you can look at java mail as an example) will be sent to the user with a generated temporary password to login the application with it.
-3. All users should be able to change their information in the profile page like password, display name…etc. except for the username.
-4. Sessions must be enforced with the user’s interaction.
-5. The project must use a unified CSS style for all the pages you can build your own or.
-6. Ajax should be used in at least three different scenarios including signing up (to check if the user registered before).
-7. All input forms must be validated either by using HTML5 controls, Java script or jQuery
-8. Every interaction from the user must be presented with a proper feedback from the system like success / failure messages, alert…etc.
-9. Usage of “Hibernate” for the DB communication is encouraged.
-10. Meaningful data examples should be present in your database at least five examples in every table are presented.
-11. The word “Manage” in the requirements is translated to all the CRUD operations (Insert/add – Update – Delete – Select
-
-
-Description
-Due to Covid-19 pandemic and other conditions managing office hours for staff members (Drs. And Tas.) became a hectic problem with a rising difficulty for the student to keep track and know the available office hours. This project tries to address this problem.
-There are two user groups which are “Students” and “staff Members”.
-Minimum required functionalities:
-
+## Project Features
+On sign-up, a CAPTCHA window will detect robot behavior.
+Passwords are auto-generated and sent by email.
+Users have email verification and authentication and can sign up, sign in, or log out with their emails.
+Users have chatting and messaging features.
+Notification center for receiving notifications.
+TAs and Doctors can create a subject they teach, and students can join these subjects.
+TAs and Doctors can announce their office hours with their free slots.
+Students can register in the office hours registered by staff.
+Get notification on the day of the meeting by email.
+Get notification of a reservation cancellation
 For students:
 1. Find staff of each subject.
 2. Find the contact for a specific staff member.
@@ -63,6 +36,16 @@ For Staff Members:
 10. Get notification of a reservation cancellation same as requirement No.8
 11. Get notification on the day of the meeting same as requirement No.8
 
+## Technologies used:
+# [Backend]:  
+Java, Java Server Pages (JSP), and MySQL.
+
+# [Frontend]:
+HTML, CSS, Bootstrap, JavaScript, jQuery, and AJAX.
+
+
+## Sample pages
+
 ![image](https://user-images.githubusercontent.com/36468401/218285242-16f3f725-8697-423f-9daa-410be068506a.png)
 
 ![image](https://user-images.githubusercontent.com/36468401/218285281-dfcf9a6e-58b0-4351-9f80-2f8493d5a3a8.png)
@@ -70,5 +53,3 @@ For Staff Members:
 ![image](https://user-images.githubusercontent.com/36468401/218285318-513787a7-8393-417d-9ef8-e9bd587b250f.png)
 
 ![image](https://user-images.githubusercontent.com/36468401/218285301-48b8a61f-06bc-4e1d-8540-84717ec1acae.png)
-
-
